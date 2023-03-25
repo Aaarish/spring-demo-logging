@@ -1,0 +1,54 @@
+2023-03-25 19:56:18.001  INFO 23236 --- [main] c.e.demologging.DemoLoggingApplication   : Starting DemoLoggingApplication using Java 17.0.5 on DESKTOP-R18S85V with PID 23236 (C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging\target\classes started by dell in C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging)
+2023-03-25 19:56:18.005 DEBUG 23236 --- [main] c.e.demologging.DemoLoggingApplication   : Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-03-25 19:56:18.006  INFO 23236 --- [main] c.e.demologging.DemoLoggingApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-03-25 19:56:21.120  INFO 23236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-25 19:56:21.132  INFO 23236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-25 19:56:21.132  INFO 23236 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-03-25 19:56:21.261  INFO 23236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-25 19:56:21.261  INFO 23236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3193 ms
+2023-03-25 19:56:21.697  INFO 23236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25 19:56:21.708  INFO 23236 --- [main] c.e.demologging.DemoLoggingApplication   : Started DemoLoggingApplication in 4.263 seconds (JVM running for 4.972)
+2023-03-25 19:56:22.118  INFO 23236 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25 19:56:22.119  INFO 23236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-25 19:56:22.127  INFO 23236 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-03-25 19:56:22.196 ERROR 23236 --- [http-nio-8080-exec-1] c.e.d.controller.TestController          : Get Lost
+2023-03-25 19:56:22.197  WARN 23236 --- [http-nio-8080-exec-1] c.e.d.controller.TestController          : Quickly
+2023-03-25 19:56:22.197  INFO 23236 --- [http-nio-8080-exec-1] c.e.d.controller.TestController          : U know what
+2023-03-25 19:56:22.197 DEBUG 23236 --- [http-nio-8080-exec-1] c.e.d.controller.TestController          : Its a secret
+2023-03-25 19:56:22.197 TRACE 23236 --- [http-nio-8080-exec-1] c.e.d.controller.TestController          : Fcuk you
+2023-03-25 19:59:56,840 [INFO] com.example.demologging.DemoLoggingApplication [main] Starting DemoLoggingApplication using Java 17.0.5 on DESKTOP-R18S85V with PID 9760 (C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging\target\classes started by dell in C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging)
+2023-03-25 19:59:56,843 [DEBUG] com.example.demologging.DemoLoggingApplication [main] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-03-25 19:59:56,845 [INFO] com.example.demologging.DemoLoggingApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-25 19:59:58,983 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-25 19:59:59,020 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-03-25 19:59:59,024 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-03-25 19:59:59,270 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-03-25 19:59:59,270 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2354 ms
+2023-03-25 19:59:59,789 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25 19:59:59,800 [INFO] com.example.demologging.DemoLoggingApplication [main] Started DemoLoggingApplication in 3.495 seconds (JVM running for 3.948)
+2023-03-25 20:00:04,475 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25 20:00:04,476 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-25 20:00:04,479 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-03-25 20:00:04,541 [ERROR] com.example.demologging.controller.TestController [http-nio-8080-exec-1] Get Lost
+2023-03-25 20:00:04,542 [WARN] com.example.demologging.controller.TestController [http-nio-8080-exec-1] Quickly
+2023-03-25 20:00:04,543 [INFO] com.example.demologging.controller.TestController [http-nio-8080-exec-1] U know what
+2023-03-25 20:00:04,544 [DEBUG] com.example.demologging.controller.TestController [http-nio-8080-exec-1] Its a secret
+2023-03-25 20:00:04,544 [TRACE] com.example.demologging.controller.TestController [http-nio-8080-exec-1] Fcuk you
+2023-03-25 20:01:11,568 [INFO] com.example.demologging.DemoLoggingApplication [main] Starting DemoLoggingApplication using Java 17.0.5 on DESKTOP-R18S85V with PID 16780 (C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging\target\classes started by dell in C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging)
+2023-03-25 20:01:11,572 [DEBUG] com.example.demologging.DemoLoggingApplication [main] Running with Spring Boot v2.7.10, Spring v5.3.26
+2023-03-25 20:01:11,573 [INFO] com.example.demologging.DemoLoggingApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-25 20:01:12,733 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-25 20:01:12,742 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-03-25 20:01:12,743 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-03-25 20:01:12,864 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-03-25 20:01:12,864 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1230 ms
+2023-03-25 20:01:13,297 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-25 20:01:13,305 [INFO] com.example.demologging.DemoLoggingApplication [main] Started DemoLoggingApplication in 2.226 seconds (JVM running for 2.656)
+2023-03-25 20:01:18,375 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-25 20:01:18,375 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-03-25 20:01:18,377 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-03-25 20:01:18,433 [ERROR] com.example.demologging.controller.TestController [http-nio-8080-exec-2] Get Lost
+2023-03-25 20:01:18,438 [WARN] com.example.demologging.controller.TestController [http-nio-8080-exec-2] Quickly
+2023-03-25 20:01:18,438 [INFO] com.example.demologging.controller.TestController [http-nio-8080-exec-2] U know what
+2023-03-25 20:01:18,438 [DEBUG] com.example.demologging.controller.TestController [http-nio-8080-exec-2] Its a secret
+2023-03-25 20:01:18,438 [TRACE] com.example.demologging.controller.TestController [http-nio-8080-exec-2] Fcuk you

@@ -1,0 +1,87 @@
+2023-03-26 01:09:07,164 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoLoggingApplication using Java 17.0.5 on DESKTOP-R18S85V with PID 9436 (C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging\target\classes started by dell in C:\Users\dell\eclipse-workspace\IntelliJ Projects\Spring Boot Projects\spring-demo-logging)
+2023-03-26 01:09:07,169 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-26 01:09:08,771 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-03-26 01:09:08,787 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-26 01:09:08,790 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2023-03-26 01:09:08,792 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-03-26 01:09:09,042 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-03-26 01:09:09,042 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1817 ms
+2023-03-26 01:09:09,555 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-03-26 01:09:09,614 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-26 01:09:09,630 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoLoggingApplication in 3.114 seconds (JVM running for 4.161)
+2023-03-26 01:09:51,001 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-26 01:09:51,003 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-03-26 01:09:51,007 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-03-26 01:09:51,057 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-1] Get Lost
+2023-03-26 01:09:51,058 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-1] Quickly
+2023-03-26 01:09:51,058 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-1] U know what
+2023-03-26 01:10:06,989 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-3] Get Lost
+2023-03-26 01:10:06,990 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-3] Quickly
+2023-03-26 01:10:06,990 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-3] U know what
+2023-03-26 01:10:07,165 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-4] Get Lost
+2023-03-26 01:10:07,165 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-4] Quickly
+2023-03-26 01:10:07,166 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-4] U know what
+2023-03-26 01:10:07,543 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-5] Get Lost
+2023-03-26 01:10:07,544 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-5] Quickly
+2023-03-26 01:10:07,544 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-5] U know what
+2023-03-26 01:10:43,382 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-7] Get Lost
+2023-03-26 01:10:43,384 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-7] Quickly
+2023-03-26 01:10:43,385 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-7] U know what
+2023-03-26 01:10:43,709 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-8] Get Lost
+2023-03-26 01:10:43,711 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-8] Quickly
+2023-03-26 01:10:43,711 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-8] U know what
+2023-03-26 01:10:44,025 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-9] Get Lost
+2023-03-26 01:10:44,026 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-9] Quickly
+2023-03-26 01:10:44,026 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-9] U know what
+2023-03-26 01:10:44,187 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-10] Get Lost
+2023-03-26 01:10:44,191 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-10] Quickly
+2023-03-26 01:10:44,192 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-10] U know what
+2023-03-26 01:10:44,345 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-1] Get Lost
+2023-03-26 01:10:44,345 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-1] Quickly
+2023-03-26 01:10:44,346 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-1] U know what
+2023-03-26 01:10:44,479 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-2] Get Lost
+2023-03-26 01:10:44,480 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-2] Quickly
+2023-03-26 01:10:44,481 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-2] U know what
+2023-03-26 01:10:44,699 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-3] Get Lost
+2023-03-26 01:10:44,700 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-3] Quickly
+2023-03-26 01:10:44,700 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-3] U know what
+2023-03-26 01:11:12,987 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-5] Get Lost
+2023-03-26 01:11:12,988 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-5] Quickly
+2023-03-26 01:11:12,988 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-5] U know what
+2023-03-26 01:11:13,189 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-6] Get Lost
+2023-03-26 01:11:13,189 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-6] Quickly
+2023-03-26 01:11:13,190 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-6] U know what
+2023-03-26 01:11:13,362 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-7] Get Lost
+2023-03-26 01:11:13,363 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-7] Quickly
+2023-03-26 01:11:13,365 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-7] U know what
+2023-03-26 01:11:13,695 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-8] Get Lost
+2023-03-26 01:11:13,695 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-8] Quickly
+2023-03-26 01:11:13,696 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-8] U know what
+2023-03-26 01:11:13,876 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-9] Get Lost
+2023-03-26 01:11:13,877 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-9] Quickly
+2023-03-26 01:11:13,878 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-9] U know what
+2023-03-26 01:11:14,226 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-10] Get Lost
+2023-03-26 01:11:14,226 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-10] Quickly
+2023-03-26 01:11:14,227 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-10] U know what
+2023-03-26 01:11:14,395 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-1] Get Lost
+2023-03-26 01:11:14,398 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-1] Quickly
+2023-03-26 01:11:14,399 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-1] U know what
+2023-03-26 01:11:14,734 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-2] Get Lost
+2023-03-26 01:11:14,734 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-2] Quickly
+2023-03-26 01:11:14,735 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-2] U know what
+2023-03-26 01:11:14,920 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-3] Get Lost
+2023-03-26 01:11:14,921 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-3] Quickly
+2023-03-26 01:11:14,921 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-3] U know what
+2023-03-26 01:11:15,251 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-4] Get Lost
+2023-03-26 01:11:15,252 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-4] Quickly
+2023-03-26 01:11:15,252 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-4] U know what
+2023-03-26 01:11:15,581 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-5] Get Lost
+2023-03-26 01:11:15,582 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-5] Quickly
+2023-03-26 01:11:15,583 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-5] U know what
+2023-03-26 01:11:15,933 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-6] Get Lost
+2023-03-26 01:11:15,933 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-6] Quickly
+2023-03-26 01:11:15,934 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-6] U know what
+2023-03-26 01:11:16,113 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-7] Get Lost
+2023-03-26 01:11:16,115 WARN com.example.demologging.controller.TestController [http-nio-8080-exec-7] Quickly
+2023-03-26 01:11:16,116 INFO com.example.demologging.controller.TestController [http-nio-8080-exec-7] U know what
+2023-03-26 01:11:16,283 ERROR com.example.demologging.controller.TestController [http-nio-8080-exec-8] Get Lost
